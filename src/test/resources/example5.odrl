@@ -1,0 +1,36 @@
+/*
+ * An example ticket policy.  Any valid holder of this ticket may exercise
+ * this permission.
+ *
+ * Ticket holders are allowed to play the game until the end of the year 2010.
+ */
+def odrl = "http://www.w3.org/ns/odrl/2"
+
+ticket("http://example.com/policy:0811") {
+    permission {
+        target "http://example.com/game:4589"
+        actions "$odrl/play"
+        constraint {
+            operator 'lteq'
+            rightOperand "$odrl/dateTime"
+            value '2010-12-31'
+        }
+    }
+}
+
+/*****
+        Policy policy = new Policy("http://example.com/policy:0811");
+        policy.setType(Policy.POLICY_TICKET);
+
+
+        Permission permission = new Permission();
+        permission.setTarget("http://example.com/game:4589");
+        permission.setActions(Arrays.asList(new Action("http://www.w3.org/ns/odrl/2/play")));
+
+        Constraint c = new Constraint("");
+        c.setOperator("http://www.w3.org/ns/odrl/2/lteq");
+        c.setRightOperand("http://www.w3.org/ns/odrl/2/dateTime");
+        c.setValue("2010-12-31");
+        permission.setConstraints(Arrays.asList(c));
+        policy.addRule(permission);
+*****/

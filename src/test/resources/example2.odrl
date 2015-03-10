@@ -1,0 +1,67 @@
+/*
+ * The 'offer' policy.
+ *
+ * Sony is offering permission to play and copy a song for a payment of
+ * 0.50AUD.  The song can be copied at most once.
+ */
+
+def odrl = "http://www.w3.org/ns/odrl/2"
+
+def sony = "http://example.com/sony:10"
+def the_song = "http://example.com/music:4545"
+
+// The duty to pay 0.50 AUD
+def must_pay_50AUD = duty {
+    actions "$odrl/pay"
+    target "http://example.com/ubl:AUD0.50"
+}
+
+// Sony is offering a song.  Users can play the song or make at most one copy.
+// Either use requires a payment of 0.50 AUD.
+offer("http://example.com/policy:0231") {
+    permission {
+        target the_song
+        assigner sony
+        actions "$odrl/play"
+        duty must_pay_50AUD
+    }
+    permission {
+        target the_song
+        assigner sony
+        actions "$odrl/copy"
+        duty must_pay_50AUD
+        constraint {
+            operator 'lteq'
+            rightOperand "$odrl/count"
+            value "1"
+        }
+    }
+}
+
+/****
+        Policy policy = new Policy("http://example.com/policy:0231");
+        policy.setType(Policy.POLICY_OFFER);
+
+        Duty payment = new Duty("http://example.com/requirements");
+        payment.setActions(Arrays.asList(new Action("http://www.w3.org/ns/odrl/2/pay")));
+        payment.setTarget("http://example.com/ubl:AUD0.50");
+
+        Permission permission = new Permission();
+        permission.setTarget("http://example.com/music:4545");
+        permission.setAssigner(new Party("http://example.com/sony:10"));
+        permission.setActions(Arrays.asList(new Action("http://www.w3.org/ns/odrl/2/play")));
+        permission.setDuty(payment);
+        policy.addRule(permission);
+
+        Permission permission2 = new Permission();
+        permission2.setTarget("http://example.com/music:4545");
+        permission2.setAssigner(new Party("http://example.com/sony:10"));
+        permission2.setActions(Arrays.asList(new Action("http://www.w3.org/ns/odrl/2/copy")));
+        permission2.setDuty(payment);
+        Constraint c = new Constraint("");
+        c.setOperator("http://www.w3.org/ns/odrl/2/lteq");
+        c.setRightOperand("http://www.w3.org/ns/odrl/2/count");
+        c.setValue("1");
+        permission2.setConstraints(Arrays.asList(c));
+        policy.addRule(permission2);
+****/

@@ -1,0 +1,29 @@
+def read = new Action("http://www.w3.org/ns/odrl/2/read")
+def write = new Action("http://www.w3.org/ns/odrl/2/modify")
+def distribute = new Action("http://www.w3.org/ns/odrl/2/distribute")
+def guest = new Party("http://example.com/guest:0589")
+
+def read_write = permission {
+    target "http://example.com/news:0099"
+    actions read, write
+}
+def no_distribution = prohibition {
+		actions distribute
+}
+policy("http://example.com/policy:4311") {
+	type "request"
+	permission read_write
+	prohibition no_distribution
+	assignee guest
+}
+
+/*****
+        Policy policy = new Policy("http://example.com/policy:4311");
+        policy.setType(Policy.POLICY_REQUEST);
+        //We create a permission to read and write
+        Permission permission = new Permission();
+        permission.setTarget("http://example.com/news:0099");
+        permission.setActions(Arrays.asList(new Action("http://www.w3.org/ns/odrl/2/display")));
+        permission.setAssignee(new Party("http://example.com/guest:0589"));
+        policy.addRule(permission);
+****/

@@ -1,0 +1,21 @@
+/*
+ * A set policy.
+ *
+ * This policy allows the asset to be read and modified, but prohibits distribution.
+ * See http://www.w3.org/ns/odrl/2/#sec-example-1"
+ */
+
+def odrl = "http://www.w3.org/ns/odrl/2"
+
+set("http://example.com/policy:0099") {
+    // Permission to read and write (modify) the asset
+    permission {
+        target "http://example.com/asset:9898"
+        actions "$odrl/read", "$odrl/write"
+    }
+    // Distribution not allowed.
+    prohibition {
+        target "http://example.com/asset:9898"
+        actions "$odrl/distribute"
+    }
+}

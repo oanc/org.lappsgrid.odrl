@@ -1,0 +1,25 @@
+/*
+ * A 'request' policy.
+ *
+ * The party is requesting permission to display the target asset.
+ */
+def odrl = "http://www.w3.org/ns/odrl/2"
+
+request("http://example.com/policy:4311") {
+	permission {
+	    target "http://example.com/news:0099"
+		actions "$odrl/display"
+		assignee "http://example.com/guest:0589"
+	}
+}
+
+/*****
+        Policy policy = new Policy("http://example.com/policy:4311");
+        policy.setType(Policy.POLICY_REQUEST);
+        //We create a permission to read and write
+        Permission permission = new Permission();
+        permission.setTarget("http://example.com/news:0099");
+        permission.setActions(Arrays.asList(new Action("http://www.w3.org/ns/odrl/2/display")));
+        permission.setAssignee(new Party("http://example.com/guest:0589"));
+        policy.addRule(permission);
+****/

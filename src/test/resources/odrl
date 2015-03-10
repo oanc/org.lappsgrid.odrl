@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+MEMSIZE=512M
+JAR=__JAR__
+
+java -Xmx$MEMSIZE -jar $JAR $@

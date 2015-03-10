@@ -1,0 +1,9 @@
+Actions = [:]
+Actions.read = new Action("http://www.w3.org/ns/odrl/2/read")
+Actions.write = new Action("http://www.w3.org/ns/odrl/2/modify")
+Actions.modify = Actions.write
+Actions.copy = new Action("http://www.w3.org/ns/odrl/2/copy")
+Actions.distribute = new Action("http://www.w3.org/ns/odrl/2/distribute")
+Actions.play = new Action("http://www.w3.org/ns/odrl/2/play")
+Actions.pay = new Action("http://www.w3.org/ns/odrl/2/pay")
+Actions.next = new Action("http://www.w3.org/ns/odrl/2/nextPolicy")

@@ -1,0 +1,38 @@
+/*
+ * The 'agreement' policy.
+ *
+ * Billie has agreed to Sony's offer (example 2) and is set as the 'assignee'
+ * for both permissions.
+ */
+def odrl = "http://www.w3.org/ns/odrl/2"
+
+def the_song = "http://example.com/music:4545"
+def sony = new Party("http://example.com/sony:10")
+def billie = new Party("http://example.com/billie:888")
+
+def payment_required = duty {
+    actions "$odrl/pay"
+    target "http://example.com/ubl:AUD0.50"
+}
+
+agreement("http://example.com/policy:9001") {
+    permission {
+        target the_song
+        assigner sony
+        assignee billie
+        actions "$odrl/play"
+        duty payment_required
+    }
+    permission {
+        target the_song
+        assigner sony
+        assignee billie
+        actions "$odrl/copy"
+        duty payment_required
+        constraint {
+            operator 'lteq'
+            rightOperand "$odrl/count"
+            value "1"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+/*
+ * The Offer and Next policy.
+ *
+ *
+ */
+def odrl = "http://www.w3.org/ns/odrl/2"
+
+def wallpaper = "http://example.com/wallpaper:2321"
+def sony = "http://example.com/sony:99"
+def italy = "http://ontologi.es/place/IT"
+def euro = "http://cvx.iptc.org/iso4217a:EUR"
+
+offer("http://example.com/policy:5531") {
+    permission {
+        actions "$odrl/distribute"
+        target wallpaper
+        assigner sony
+        constraint {
+            operator 'eq'
+            rightOperand "http://example.com/country"
+            value italy
+        }
+        duty {
+            actions "$odrl/pay"
+            constraint {
+                rightOperand "http://example.com/currency"
+                operator 'eq'
+                value '1000'
+                unit euro
+            }
+        }
+        duty {
+            actions "$odrl/nextPolicy"
+            target "http://example.com/policy:7777"
+        }
+    }
+}
+
+set("http://example.com/policy:7777") {
+    permission {
+        actions "$odrl/play"
+        target wallpaper
+    }
+}
+
+/*****
+
+*****/
