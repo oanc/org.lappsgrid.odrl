@@ -2,6 +2,6 @@ include 'actions'
 
 policy:set("http://example.com/policy:01") {
     permission {
-        target "http://example.com
+        actions
     }
 }
