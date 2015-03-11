@@ -31,30 +31,20 @@
       <file leaf-file-name="example6.odrl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/example6.odrl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="901">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example2.odrl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/example2.odrl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1224">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5380435" vertical-offset="2171" max-vertical-offset="2907">
+            <state vertical-scroll-proportion="-13.2" vertical-offset="2171" max-vertical-offset="2907">
               <caret line="151" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="165" selection-end-column="53" />
               <folding />
             </state>
@@ -64,8 +54,8 @@
       <file leaf-file-name="Main.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/Main.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4607" max-vertical-offset="6086">
-              <caret line="290" column="16" selection-start-line="290" selection-start-column="16" selection-end-line="290" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="6086">
+              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -81,6 +71,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="example2.odrl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/example2.odrl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="set.odrl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/set.odrl">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,36 +91,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example3.odrl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/example3.odrl">
+      <file leaf-file-name="PolicyDelegate.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/PolicyDelegate.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1190">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example4.1.odrl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/example4.1.odrl">
+      <file leaf-file-name="MainTest.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/org/lappsgrid/odrl/MainTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1275">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example4.odrl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/example4.odrl">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="510">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.8002611" vertical-offset="662" max-vertical-offset="1428">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -157,7 +154,6 @@
         <option value="$PROJECT_DIR$/../odrlapi/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/Main.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/example4.odrl" />
-        <option value="$PROJECT_DIR$/src/test/groovy/org/lappsgrid/odrl/MainTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/example6.odrl" />
         <option value="$PROJECT_DIR$/src/test/resources/example5.odrl" />
         <option value="$PROJECT_DIR$/src/test/resources/example2.odrl" />
@@ -166,6 +162,7 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/test/resources/set.odrl" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/groovy/org/lappsgrid/odrl/MainTest.groovy" />
       </list>
     </option>
   </component>
@@ -805,12 +802,12 @@
       <workItem from="1425502206271" duration="2404000" />
       <workItem from="1425665784967" duration="490000" />
       <workItem from="1426011988364" duration="3606000" />
-      <workItem from="1426022280684" duration="4265000" />
+      <workItem from="1426022280684" duration="5062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65719000" />
+    <option name="totallyTimeSpent" value="66516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1418" height="943" extended-state="0" />
@@ -875,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,6 +1071,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1802">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,30 +1107,6 @@
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1428">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/org/lappsgrid/odrl/MainTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1309">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/PolicyDelegate.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../odrlapi/src/main/java/odrlmodel/Policy.java">
@@ -1176,22 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1224">
           <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/example6.odrl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/example2.odrl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1224">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1247,21 +1206,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/Main.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4607" max-vertical-offset="6086">
-          <caret line="290" column="16" selection-start-line="290" selection-start-column="16" selection-end-line="290" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5380435" vertical-offset="2171" max-vertical-offset="2907">
+        <state vertical-scroll-proportion="-13.2" vertical-offset="2171" max-vertical-offset="2907">
           <caret line="151" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="165" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/example6.odrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/Main.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="6086">
+          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/lappsgrid/odrl/PolicyDelegate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1190">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/org/lappsgrid/odrl/MainTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1275">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/example2.odrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8002611" vertical-offset="662" max-vertical-offset="1428">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
           <folding />
         </state>
       </provider>
