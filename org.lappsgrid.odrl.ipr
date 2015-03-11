@@ -27,6 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="odrlapi" target="1.7" />
       <module name="org.lappsgrid.odrl" target="1.7" />
     </bytecodeTargetLevel>
   </component>
@@ -38,6 +39,7 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../odrlapi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
   </component>
   <component name="EntryPointsManager">
